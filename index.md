@@ -1,3 +1,5 @@
+# findNeedles API
+
 ## In a nutshell
 
 `findNeedles` method counts how many `needle` words occur within a `haystack` text with a seach limitation of up tp five words.
