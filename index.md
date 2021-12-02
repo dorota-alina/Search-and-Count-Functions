@@ -50,6 +50,14 @@ There are two input parameters for this method.
 |heystack|String|Plain text possibly including the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`|
 |needles| String array| Set of words|
 
+#### Sample input
+
+```java
+String[] needles = {"hello", "there", "mac", "one", "123"};
+String haystack = "hello there hello! There is an apple macbook";
+findNeedles(haystack, needles);
+```
+
 ## Response
 
 The function logs output in the console: either the error message or a list of words with numbers reflecting how many times they occur in the input text.
