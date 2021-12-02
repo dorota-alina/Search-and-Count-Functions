@@ -6,13 +6,9 @@
  
 ## Sequence of operations
 
-|vsdv|dvsd|
-| ---|---|
-|svdsdvs|vewe|
-|vrwere|erer|vere|
-
-
-1. `findNeedles` checks if the size of the `needles` array is greater than five. If yes, it output an error message. If no, it proceeeds.
+1. `findNeedles` checks if the size of the `needles` array is greater than five.
+2a. If yes, it output an error message.
+2b. If no, it proceeeds.
 If found, `findNeedles` counts and logs its occurances. <br>
 
 . If it is, it prints an "error" and subsequently exits.
