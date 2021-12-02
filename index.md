@@ -22,24 +22,24 @@ If not, the method uses split function to split the given input argument string 
 \r carriage return character
 
 ```java
-    public static void findNeedles(String haystack, String[] needles) {
-       if (needles.length > 5) {
-           System.err.println("Too many words!");
-       } else {
-           int[] countArray = new int[needles.length];
-           for (int i = 0; i < needles.length; i++) {
-               String[] words = haystack.split("[ \"\'\t\n\b\f\r]", 0);
-               for (int j = 0; j < words.length; j++) {
-                   if (words[j].compareTo(needles[i]) == 0) {
-                       countArray[i]++;
-                   }
-               }
-           }
-           for (int j = 0; j < needles.length; j++) {
-               System.out.println(needles[j] + ": " + countArray[j]);
-           }
-       }
-   }
+public static void findNeedles(String haystack, String[] needles) {
+   if (needles.length > 5) {
+       System.err.println("Too many words!");
+   } else {
+       int[] countArray = new int[needles.length];
+       for (int i = 0; i < needles.length; i++) {
+           String[] words = haystack.split("[ \"\'\t\n\b\f\r]", 0);
+           for (int j = 0; j < words.length; j++) {
+               if (words[j].compareTo(needles[i]) == 0) {
+                    countArray[i]++;
+                }
+            }
+        }
+        for (int j = 0; j < needles.length; j++) {
+            System.out.println(needles[j] + ": " + countArray[j]);
+        }
+    }
+}
 ```
 
 It then splits the haystack string over a number of characters (including single and double quotes, tabs, newlines, word boundaries, form feeds and carriage returns) into an array of words called words.
