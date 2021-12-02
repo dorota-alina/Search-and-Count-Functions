@@ -7,8 +7,9 @@
 ## Sequence of operations
 
 1. `findNeedles` checks if the size of the `needles` array is greater than five.
-2a. If yes, it output an error message.
-2b. If no, it proceeeds.
+2. Depending on the outcome
+   * If greater than five, it output an error message and exites.
+   * If smaller or equal five, it proceeeds.
 If found, `findNeedles` counts and logs its occurances. <br>
 
 . If it is, it prints an "error" and subsequently exits.
