@@ -48,7 +48,7 @@ There are two input parameters for this method.
 |Input parameter|Data type|Description|
 |---|---|---|
 |heystack|String|Plain text possibly including the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`|
-|needles| String array| Set of words|
+|needles|String array|Set of words|
 
 #### Sample input
 
@@ -80,6 +80,12 @@ needles[4]: number of occurrences
 Too many words!
 ```
 
+## Check it out
 
+* Sample input: `findNeedles("hello'there hello! There is an apple macbook", {"hello", "there", "There"});`
+* Expected output:
+  * hello: 1
+  * There: 1
+  * there: 1
 
 
