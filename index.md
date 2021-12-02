@@ -85,7 +85,7 @@ Too many words!
 * Sample input: `findNeedles("hello'there hello! There is an apple macbook", {"hello", "there", "There"});`
 * Expected output:
   * hello: 1
-  * There: 1
   * there: 1
+  * There: 1
 
 
