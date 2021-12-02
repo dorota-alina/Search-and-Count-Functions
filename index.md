@@ -54,6 +54,24 @@ There are two input parameters for this method.
 
 The function logs output in the console: either the error message or a list of words with numbers reflecting how many times they occur in the input text.
 
+### Sample output
+
+#### If needles length is less than or equal to five
+
+```bash
+needles[0]: number of occurrences
+needles[1]: number of occurrences
+needles[2]: number of occurrences
+needles[3]: number of occurrences
+needles[4]: number of occurrences
+```
+
+#### If needles length is greater five
+
+```bash
+Too many words!
+```
+
 
 
 
