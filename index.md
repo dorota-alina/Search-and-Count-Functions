@@ -1,15 +1,21 @@
 # findNeedles API
 
-## In a nutshell
+## API description
 
-`findNeedles` method counts how many `needle` words occur within a `haystack` text with a seach limitation of up tp five words.
+`findNeedles` method counts and logs how many times particular `needles` (words) occur within a `haystack` (plaintext file) unless there are more than five `needles` with the `heystack`, in which case the method exits with an error message.
+ 
+## Sequence of operations
 
-## In depth
+|vsdv|dvsd|
+| ---|---|
+|svdsdvs|vewe|
+|vrwere|erer|vere|
 
-`findNeedles` API method searches throught a particular text (`haystack`) for a specific word (`needle`). If found, `findNeedles` counts and logs its occurances. <br>
-* `haystack` is a file stored locally.
-* `needles` are arrays of words.<br>
-It first checks whether the size of needles is greater than 5. If it is, it prints an "error" and subsequently exits.
+
+1. `findNeedles` checks if the size of the `needles` array is greater than five. If yes, it output an error message. If no, it proceeeds.
+If found, `findNeedles` counts and logs its occurances. <br>
+
+. If it is, it prints an "error" and subsequently exits.
 
 If not, the method uses split function to split the given input argument string using following literals: \"\'\t\n\b\f\r
 
@@ -20,6 +26,8 @@ If not, the method uses split function to split the given input argument string 
 \b back space character
 \f form feed character
 \r carriage return character
+
+## Calling the method
 
 ```java
 public static void findNeedles(String haystack, String[] needles) {
@@ -41,6 +49,13 @@ public static void findNeedles(String haystack, String[] needles) {
     }
 }
 ```
+
+## Parameters
+
+## Response
+
+Method can return an output
+Current code logs output in the console, alternatively an array containing the list of outputs can be returned.
 
 It then splits the haystack string over a number of characters (including single and double quotes, tabs, newlines, word boundaries, form feeds and carriage returns) into an array of words called words.
 
