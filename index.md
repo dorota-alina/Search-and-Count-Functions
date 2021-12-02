@@ -9,12 +9,8 @@
 1. `findNeedles` checks if the size of the `needles` array is greater than five.
 2. Depending on the outcome
    * If greater than five, it output an error message and exites.
-   * If smaller or equal five, it proceeeds.
-If found, `findNeedles` counts and logs its occurances. <br>
-
-. If it is, it prints an "error" and subsequently exits.
-
-If not, the method uses split function to split the given input argument string using following literals: \"\'\t\n\b\f\r
+   * If smaller or equal five, it proceeeds to step 3.
+3. It uses the `split` function to divide the input string using the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`
 
 \" double quotes character
 \' single quote character
