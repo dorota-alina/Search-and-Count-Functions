@@ -21,7 +21,7 @@ If not, the method uses split function to split the given input argument string 
 \f form feed character
 \r carriage return character
 
-```shell
+```java
     public static void findNeedles(String haystack, String[] needles) {
        if (needles.length > 5) {
            System.err.println("Too many words!");
