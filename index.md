@@ -2,19 +2,21 @@
 
 ## API description
 
-`findNeedles` method counts and logs how many times particular `needles` (words) occur within a `haystack` (plaintext file) unless there are more than five `needles` with the `heystack`, in which case the method exits with an error message.
+`findNeedles` method counts and logs how many times particular `needles` (words) occur within a `haystack` (plaintext file) unless there are more than five `needles` with the `needles` array, in which case the method exits with an error message.
  
 ## Sequence of operations
 
 1. `findNeedles` checks if the size of the `needles` array is greater than five.
-2. Depending on the outcome
+
+   ***Result***
    * If greater than five, it output an error message and exites.
-   * If smaller or equal five, it proceeeds to step 3.
-3. `findNeedles` uses the `split` function to divide the input string using the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`. The `haystack` string is split into words, which consttute the `words` array.
-4. `findNeedles` compares each element of the `needles` array to each element of the `words`array.
-5. If a `needle` occurs within the `words` array, the count for this `needle` gets launched.
-6. With the search and all the counts completed, `findNeedles` outputs a list of matched `needles` with their occurence count results.
-7. Function exists.
+   * If smaller or equal five, it proceeeds to step 2.
+
+2. `findNeedles` uses the `split` function to divide the input string using the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`. The `haystack` string is split into words, which consttute the `words` array.
+3. `findNeedles` compares each element of the `needles` array to each element of the `words`array.
+4. If a `needle` occurs within the `words` array, the count for this `needle` gets launched.
+5. With the search and all the counts completed, `findNeedles` outputs a list of matched `needles` with their occurence count results.
+6. Function exists.
 
 ## Calling the method
 
