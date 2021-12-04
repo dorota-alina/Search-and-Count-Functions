@@ -1,24 +1,71 @@
 # findNeedles API
 
+Gets the number of matches for a search query.
+
 ## API description
 
-`findNeedles` method counts and logs how many times particular `needles` (words) occur within a `haystack` (plaintext file) unless there are more than five `needles` with the `needles` array, in which case the method exits with an error message.
- 
-## Sequence of operations
+`findNeedles` counts and logs how many times particular `needles` (elements of the `needles` strings array) occur within `haystack` (string). To achieve that, `findNeedles` uses the `split` function dividing the `haystack` string into `words` strings by means of the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`. `findNeedles` compares each element of the `needles` array to each element of the `words` array. It counts the matches and outputs them as a list of strings with numbers of their occurences.
 
-1. `findNeedles` checks if the size of the `needles` array is greater than five.
+## Request
 
-   ***Result***
-   * If greater than five, it output an error message and exites.
-   * If smaller or equal five, it proceeeds to step 2.
+### Request syntax
 
-2. `findNeedles` uses the `split` function to divide the input string using the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`. The `haystack` string is split into words, which constitute the `words` array.
-3. `findNeedles` compares each element of the `needles` array to each element of the `words`array.
-4. If a `needle` occurs within the `words` array, the count for this `needle` is launched.
-5. With the search and all the counts completed, `findNeedles` outputs a list of matched `needles` with their occurence count results.
-6. Function exists.
+```Shell
+GET /findneedles/{haystrack}{needles} HTTP/1.1
+```
 
-## Calling the method
+### Request parameters
+
+This API request requires two query-string parameters.
+
+|Parameter|Type|Description|Required|Limitation|Sample|
+|---|---|---|---|---|---|
+|heystack|String|String of characters (split into words, constitutes the `words` array)|Yes|No|"hello world hello! The world is mine."|
+|needles|String array|Set of words (needles to be compared to the `words` array|Yes|Up to five strings per array|{"111", "we", "world", "mine", "hello"}|
+
+### Request sample
+
+```bash
+http://localhost:8080/findneedles?haystack=hello+world+hello!+The+world+is+mine.&needles=111&needles=we&needles=world&needles=mine&needles=hello
+```
+
+## Response
+
+`findNeedles` logs the following output in the console:
+* For `needles` of up to five elements: an [error message](#more-than-five-needles) 
+* For `needles` of more than five elements, a [list of words with numbers](#up-to-five-needles) reflecting how many times they occur in the `words` array.
+
+### Response schema
+
+```shell
+needles[0]: occurrences no.
+needles[1]: occurrences no.
+needles[2]: occurrences no.
+needles[3]: occurrences no.
+needles[4]: occurrences no.
+```
+
+### Response samples
+
+#### Up to five needles
+
+```bash
+111: 0
+we: 0
+world: 2
+mine: 1
+hello: 1
+```
+
+#### More than five needles
+
+```bash
+Too many words!
+```
+
+## Appendix
+
+### Logic behind
 
 ```java
 public static void findNeedles(String haystack, String[] needles) {
@@ -41,51 +88,13 @@ public static void findNeedles(String haystack, String[] needles) {
 }
 ```
 
-## Parameters
+### Operational sequence
 
-There are two input parameters for this method.
-
-|Input parameter|Data type|Description|
-|---|---|---|
-|heystack|String|Plain text possibly including the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`|
-|needles|String array|Set of words|
-
-#### Sample input
-
-```java
-String[] needles = {"hello", "there", "mac", "one", "123"};
-String haystack = "hello there hello! There is an apple macbook";
-findNeedles(haystack, needles);
-```
-
-## Response
-
-The function logs output in the console: either the error message or a list of words with numbers reflecting how many times they occur in the input text.
-
-### Sample output
-
-#### If needles length is less than or equal to five
-
-```bash
-needles[0]: number of occurrences
-needles[1]: number of occurrences
-needles[2]: number of occurrences
-needles[3]: number of occurrences
-needles[4]: number of occurrences
-```
-
-#### If needles length is greater five
-
-```bash
-Too many words!
-```
-
-## Check it out
-
-* Sample input: `findNeedles("hello'there hello! There is an apple macbook", {"hello", "there", "There"});`
-* Expected output:
-  * hello: 1
-  * there: 1
-  * There: 1
-
+1. `findNeedles` checks if the size of the `needles` array is greater than five.
+   * If greater than five, it output an error message and exites.
+   * If smaller or equal five, it proceeeds to step 2.
+2. `findNeedles` uses the `split` function to divide the input string using the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`. The `haystack` string is split into words, which constitute the `words` array.
+3. `findNeedles` compares each element of the `needles` array to each element of the `words`array.
+4. If a `needle` occurs within the `words` array, the count for this `needle` is launched.
+5. With the search and all the counts completed, `findNeedles` outputs a list of matched `needles` with their occurence count results.
 
