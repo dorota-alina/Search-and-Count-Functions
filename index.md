@@ -2,7 +2,7 @@
 
 Gets the number of matches for a search query.
 
-1. [API description](#api-description)
+1. [API description](#api-description) <br> <br>
 2. [Request](#request)
    1. [Request syntax](#request-syntax)
    2. [Request parameters](#request-parameters)
