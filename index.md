@@ -2,15 +2,15 @@
 
 Gets the number of matches for a search query.
 
-[API description](#api-description)<br>
-[Request](#request)<br>
-[Request syntax](#request-syntax)<br>
-[Request parameters](#request-parameters)<br>
-[Request sample](#request-sample)<br>
-[Response](#response)<br>
-[Response schema](#response-schema)<br>
-[Response samples](#response-samples)<br>
-[Appendix](#appendix)<br>
+1. [API description](#api-description)<br>
+2. [Request](#request)<br>
+   1. [Request syntax](#request-syntax)<br>
+   2. [Request parameters](#request-parameters)<br>
+   3 .[Request sample](#request-sample)<br>
+3. [Response](#response)<br>
+   1. [Response schema](#response-schema)<br>
+   2. [Response samples](#response-samples)<br>
+4. [Appendix](#appendix)<br>
 
 ## API description
 
