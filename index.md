@@ -2,6 +2,8 @@
 
 Gets the number of matches for a search query.
 
+CONTENTS
+
 1. [Description](#description)
 2. [Request](#request)
 3. [Response](#response)
