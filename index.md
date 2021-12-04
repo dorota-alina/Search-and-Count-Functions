@@ -2,6 +2,16 @@
 
 Gets the number of matches for a search query.
 
+[API description](#api-description)
+[Request](#request)
+[Request syntax](#request-syntax)
+[Request parameters](#request-parameters)
+[Request sample](#request-sample)
+[Response](#response)
+[Response schema](#response-schema)
+[Response samples](#response-samples)
+[Appendix](#appendix)
+
 ## API description
 
 `findNeedles` counts and logs how many times particular `needles` (elements of the `needles` strings array) occur within `haystack` (string). To achieve that, `findNeedles` uses the `split` function dividing the `haystack` string into `words` strings by means of the following literals: `"`, `'`, `t`, `n`, `b`, `f`, `r`. `findNeedles` compares each element of the `needles` array to each element of the `words` array. It counts the matches and outputs them as a list of strings with numbers of their occurences.
