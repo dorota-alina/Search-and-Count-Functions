@@ -6,7 +6,7 @@ Gets the number of matches for a search query.
 2. [Request](#request)
    1. [Request syntax](#request-syntax)
    2. [Request parameters](#request-parameters)
-   3 .[Request sample](#request-sample)
+   3. [Request sample](#request-sample)
 3. [Response](#response)
    1. [Response schema](#response-schema)
    2. [Response samples](#response-samples)
