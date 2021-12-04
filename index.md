@@ -3,10 +3,14 @@
 Gets the number of matches for a search query.
 
 CONTENTS
-
-1. [Description](#description)
-2. [Request](#request)
-3. [Response](#response)
+[Description](#description)
+  [Reguest syntax](#description)
+  [Paramters](#description)
+  [Sample](#description)
+[Request](#request)
+  [Schema](#description)
+  [Samples](#description)
+[Response](#response)
 
 ## Description
 
