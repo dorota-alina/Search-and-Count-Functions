@@ -21,7 +21,7 @@ CONTENTS
 ### Request syntax
 
 ```Shell
-GET /findneedles/{haystrack}{needles} HTTP/1.1
+GET https://{domin-name}/findneedles/{haystrack}{needles} HTTP/1.1
 ```
 
 ### Request parameters
