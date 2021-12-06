@@ -20,8 +20,8 @@ CONTENTS
 
 ### Request syntax
 
-```Shell
-GET https://{domin-name}/findneedles/{output}?{haystrack}{needles} HTTP/1.1
+```bash
+GET http://server/findneedles/Search/{haystack}/?q={needles}
 ```
 
 ### Request parameters
