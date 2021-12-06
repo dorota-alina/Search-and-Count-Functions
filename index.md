@@ -21,7 +21,7 @@ CONTENTS
 ### Request syntax
 
 ```bash
-GET http://server/findneedles/{haystack}/?q={needles}
+GET http://server/findneedles/{haystack}/?{needles}
 ```
 
 ### Request parameters
