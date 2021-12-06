@@ -36,7 +36,7 @@ This API request requires two query-string parameters.
 ### Request sample
 
 ```bash
-http://localhost:8080/findneedles?haystack=hello+world+hello!+The+world+is+mine.&needles=111&needles=we&needles=world&needles=mine&needles=hello
+http://localhost:8080/findneedles/hello+world+hello!+The+world+is+mine./?needles=111&needles=we&needles=world/?q=mine&needles=hello
 ```
 
 ## Response
