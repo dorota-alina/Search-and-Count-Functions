@@ -49,17 +49,17 @@ http://localhost:8080/findneedles/hello+world+hello!+The+world+is+mine./?needles
 
 |Property|Value|Description|
 |---|---|---|
-|needles|String|dvdfv|
-|countArray|Intiger|ervever|
+|needles[j]|String|'needles` array string found in the `words` array string|
+|countArray[j]|Intiger|Number of occurances of needle `j` within the `words` string array|
 
 
-|```shell
+```shell
 needles[0]: occurrences no.
 needles[1]: occurrences no.
 needles[2]: occurrences no.
 needles[3]: occurrences no.
 needles[4]: occurrences no.
-```|
+```
 
 ### Response samples
 
