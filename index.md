@@ -50,7 +50,7 @@ http://localhost:8080/findneedles/hello+world+hello!+The+world+is+mine./?needles
 |Property|Value|Description|
 |---|---|---|
 |needles[j]|String|Element of the `needles` string array found in the `words` string array|
-|countArray[j]|Intiger|Number of occurances of needle `j` within the `words` string array|
+|countArray[j]|Intiger|Number of occurances of a matched string (needle `j`) within the `words` string array|
 
 
 ```shell
