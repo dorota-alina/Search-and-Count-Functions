@@ -9,7 +9,7 @@ Gets the number of matches for a search query.
 >>> [Reguest syntax](#description)<br>
 >>> [Paramters](#description)<br>
 >>> [Sample](#description)<br>
->> [Response](#response)<br>
+> [Response](#response)<br>
 >>> [Schema](#description)<br>
 >>> [Samples](#description)<br>
 
