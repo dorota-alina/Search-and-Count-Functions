@@ -5,12 +5,12 @@ Gets the number of matches for a search query.
 >CONTENTS
 >>[Description](#description)<br>
 >>[Request](#request)<br>
->> \-- [Reguest syntax](#description)<br>
->> \-- [Request paramters](#description)<br>
->> \-- [Request sample](#description)<br>
+>> \- [Reguest syntax](#description)<br>
+>> \- [Request paramters](#description)<br>
+>> \- [Request sample](#description)<br>
 >>[Response](#response)<br>
->> \>> [Response schema](#description)<br>
->> \>> [Response samples](#description)<br>
+>> \-- [Response schema](#description)<br>
+>> \-- [Response samples](#description)<br>
 
 ## Description
 
