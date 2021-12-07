@@ -4,7 +4,7 @@ Gets the number of matches for a search query.
 
 >CONTENTS
 >
-> [Description](#description)<br>
+>< [Description](#description)<br>
 > [Request](#request)<br>
 >> [Reguest syntax](#description)<br>
 >> [Paramters](#description)<br>
