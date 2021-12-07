@@ -2,7 +2,7 @@
 
 Gets the number of matches for a search query.
 
-CONTENTS
+CONTENTS<br>
 [Description](#description)<br>
   [Reguest syntax](#description)<br>
   [Paramters](#description)<br>
