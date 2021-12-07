@@ -5,9 +5,9 @@ Gets the number of matches for a search query.
 >CONTENTS
 >>[Description](#description)<br>
 >>[Request](#request)<br>
->>__[Reguest syntax](#description)<br>
->>__[Paramters](#description)<br>
->>__[Sample](#description)<br>
+>> - [Reguest syntax](#description)<br>
+>> - [Paramters](#description)<br>
+>> - [Sample](#description)<br>
 >>[Response](#response)<br>
 >>   \> [Schema](#description)<br>
 >>   \> [Samples](#description)<br>
