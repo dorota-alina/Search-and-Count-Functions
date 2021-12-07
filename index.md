@@ -47,9 +47,11 @@ http://localhost:8080/findneedles/hello+world+hello!+The+world+is+mine./?needles
 
 ### Response schema
 
-|---|
-|needles|
-|countArray|
+
+|needles|dvevee|
+|countArray|fver|
+|---|---|
+
 |```shell
 needles[0]: occurrences no.
 needles[1]: occurrences no.
