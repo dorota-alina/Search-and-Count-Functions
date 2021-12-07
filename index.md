@@ -2,8 +2,8 @@
 
 Gets the number of matches for a search query.
 
-CONTENTS
-
+>CONTENTS
+>
 > [Description](#description)<br>
 > [Request](#request)<br>
 >> [Reguest syntax](#description)<br>
