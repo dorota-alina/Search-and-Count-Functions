@@ -2,15 +2,16 @@
 
 Gets the number of matches for a search query.
 
-CONTENTS<br>
-* [Description](#description)
-* [Request](#request)
-    * [Reguest syntax](#description)
-    * [Paramters](#description)
-    * [Sample](#description)
-* [Response](#response)
-    * [Schema](#description)
-    * [Samples](#description)
+CONTENTS
+
+[Description](#description)
+[Request](#request)
+>>> [Reguest syntax](#description)
+>> [Paramters](#description)
+=> [Sample](#description)
+==> [Response](#response)
+=>> [Schema](#description)
+==>> [Samples](#description)
 
 ## Description
 
