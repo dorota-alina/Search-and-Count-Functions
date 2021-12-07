@@ -21,7 +21,7 @@ Gets the number of matches for a search query.
 ### Request syntax
 
 ```bash
-GET http://server/findneedles/{haystack}/?{needles}
+GET /findneedles/{haystack}/?{needles}
 ```
 
 ### Request parameters
