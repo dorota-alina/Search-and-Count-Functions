@@ -4,12 +4,12 @@ Gets the number of matches for a search query.
 
 CONTENTS<br>
 [Description](#description)<br>
-  [Reguest syntax](#description)<br>
-  [Paramters](#description)<br>
-  [Sample](#description)<br>
+    [Reguest syntax](#description)<br>
+    [Paramters](#description)<br>
+    [Sample](#description)<br>
 [Request](#request)<br>
-  [Schema](#description)<br>
-  [Samples](#description)<br>
+    [Schema](#description)<br>
+    [Samples](#description)<br>
 [Response](#response)<br>
 
 ## Description
