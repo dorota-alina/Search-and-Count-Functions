@@ -48,6 +48,7 @@ http://localhost:8080/findneedles/hello+world+hello!+The+world+is+mine./?needles
 ### Response schema
 
 |Property|Value|Description|
+|---|---|---|
 |needles|String|dvdfv|
 |countArray|Intiger|ervever|
 
