@@ -6,11 +6,11 @@ Gets the number of matches for a search query.
 >>[Description](#description)<br>
 >>[Request](#request)<br>
 >> \-- [Reguest syntax](#description)<br>
->> \-- [Paramters](#description)<br>
->> \-- [Sample](#description)<br>
+>> \-- [Request paramters](#description)<br>
+>> \-- [Request sample](#description)<br>
 >>[Response](#response)<br>
->> \>> [Schema](#description)<br>
->> \>> [Samples](#description)<br>
+>> \>> [Response schema](#description)<br>
+>> \>> [Response samples](#description)<br>
 
 ## Description
 
