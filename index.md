@@ -3,7 +3,7 @@
 Gets the number of matches for a search query.
 
 >CONTENTS
->>[Description](#description)<br>
+>>[Resource description](#description)<br>
 >>[Request](#request)<br>
 >> \- [Reguest syntax](#description)<br>
 >> \- [Request paramters](#description)<br>
@@ -18,7 +18,7 @@ Gets the number of matches for a search query.
 
 ## Request
 
-### Request syntax
+### Syntax
 
 ```bash
 GET http://server/findneedles/{haystack}/?{needles}
