@@ -67,7 +67,7 @@ needles[4]: countArray[4]
 
 ### Response samples
 
-#### `needles` array <= 5
+#### `needles` array size <= 5
 
 ```bash
 111: 0
@@ -77,7 +77,7 @@ mine: 1
 hello: 1
 ```
 
-#### `needles` array > 5
+#### `needles` array size > 5
 
 ```bash
 Too many words!
