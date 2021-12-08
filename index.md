@@ -65,7 +65,7 @@ needles[4]: occurrences no.
 
 ### Response samples
 
-#### needles.length > 5
+#### needles.length <= 5
 
 ```bash
 111: 0
@@ -75,7 +75,7 @@ mine: 1
 hello: 1
 ```
 
-#### needles.length <= 5
+#### needles.length > 5
 
 ```bash
 Too many words!
