@@ -56,11 +56,11 @@ The returned resource maps to the entire response body.
 
 
 ```shell
-needles[0]: occurrences no.
-needles[1]: occurrences no.
-needles[2]: occurrences no.
-needles[3]: occurrences no.
-needles[4]: occurrences no.
+needles[0]: countArray[0]
+needles[1]: countArray[1]
+needles[2]: countArray[2]
+needles[3]: countArray[3]
+needles[4]: countArray[4]
 ```
 
 ### Response samples
