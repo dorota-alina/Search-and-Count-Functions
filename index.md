@@ -44,8 +44,8 @@ http://localhost:8080/findneedles/hello+world+hello!+The+world+is+mine./?needles
 ## Response
 
 `findNeedles` logs the following output in the console:
-* For the `needles` string array of up to five elements: the [error message](https://dorota-alina.github.io/Search-and-Count-Functions/#:~:text=mine%3A%201%0Ahello%3A%201-,needles%20array%20%3E%205,-Too%20many%20words) 
-* For the `needles` string array of more than five elements, a [list of elements of the `needles` array](https://dorota-alina.github.io/Search-and-Count-Functions/#:~:text=Response%20samples-,needles%20array%20%3C%3D%205,-111%3A%200%0Awe) found in the `words` array with numbers of the occurances
+* For the `needles` string array of up to five elements - a [list of elements of the `needles` array](https://dorota-alina.github.io/Search-and-Count-Functions/#:~:text=Response%20samples-,needles%20array%20%3C%3D%205,-111%3A%200%0Awe) found in the `words` array with numbers of the occurances
+* For the `needles` string array of more than five elements - the [error message](https://dorota-alina.github.io/Search-and-Count-Functions/#:~:text=mine%3A%201%0Ahello%3A%201-,needles%20array%20%3E%205,-Too%20many%20words).
 
 The returned resource maps to the entire response body.
 
