@@ -26,7 +26,7 @@ GET /findneedles/{haystack}/?{needles}
 
 ### Request parameters
 
-This API request requires two query-string parameters.
+This API request requires two parameters.
 
 |Parameter|Type|Value|Description|Required|Limitation|Sample|
 |---|---|---|---|---|---|---|
@@ -45,9 +45,9 @@ http://localhost:8080/findneedles/hello+world+hello!+The+world+is+mine./?needles
 * For the `needles` string array of up to five elements: an [error message](#more-than-five-needles) 
 * For the `needles` string array of more than five elements, a [list of elements of the `needles` array] found in the `words` array with numbers of the occurances
 
-### Response schema
-
 The returned resource maps to the entire response body.
+
+### Response schema
 
 |Property|Value|Description|
 |---|---|---|
