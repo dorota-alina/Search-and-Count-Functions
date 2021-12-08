@@ -32,7 +32,7 @@ This API request requires two parameters.
 
 |Parameter|Type|Value|Description|Required|Limitation|Sample|
 |---|---|---|---|---|---|---|
-|heystack|Path parameter|String|String of characters (split into words, constitutes the `words` array)|Yes|No|"hello world hello! The world is mine."|
+|haystack|Path parameter|String|String of characters (split into words, constitutes the `words` array)|Yes|No|"hello world hello! The world is mine."|
 |needles|Query parameter|String array|Set of words (needles to be compared to the `words` array|Yes|Up to five strings per array|{"111", "we", "world", "mine", "hello"}|
 
 ### Request sample
