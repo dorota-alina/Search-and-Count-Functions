@@ -42,7 +42,7 @@ http://localhost:8080/findneedles/hello+world+hello!+The+world+is+mine./?needles
 ## Response
 
 `findNeedles` logs the following output in the console:
-* For the `needles` string array of up to five elements: an [error message](#more-than-five-needles) 
+* For the `needles` string array of up to five elements: the [error message](#more-than-five-needles) 
 * For the `needles` string array of more than five elements, a [list of elements of the `needles` array] found in the `words` array with numbers of the occurances
 
 The returned resource maps to the entire response body.
